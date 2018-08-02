@@ -13,6 +13,7 @@ You can find the code documentation at [this](https://marcoieni.github.io/dsdm-p
 The graph input file describes the graph that describes control and data dependencies of the basic operations of the c piece of code in SSA form.
 
 The first line of the input file consists in the delay units of the operations in order and separated by a space.
+The first number is always 0 because it is the weight of the entry node.
 In the next lines, write the vertices of each arc of the graph separated by a space.
 
 ### Command line args
@@ -21,8 +22,6 @@ Command line args of the program in order:
 1. path of the graph input file;
 2. control steps number (number of flip flops in front of the entry node that needs to be redistributed);
 3. required clock cycles.
-
-First number is 0 because it is the entry node.
 
 ## Output
 The output file generated describes a graph with a similar format of the graph input file, because the first line contains the delay units of the operations, but the next lines are characterized by a third element, which is the number of flip flops that has to be inserted in the arc between the vertices that correspond to the first and the second element of each line.
