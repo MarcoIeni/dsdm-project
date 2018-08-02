@@ -3,6 +3,8 @@
 Project for Digital Systems Design Methodologies Project course of M.Sc. Computer Science and Engineering at Politecnico di Milano.
 It consists in the implementation of the [Retiming](https://en.wikipedia.org/wiki/Retiming) Algorithm described in paper [Optimized generation of data-path from C codes for FPGAs](https://ieeexplore.ieee.org/document/1395540/) in order to get the scheduling of a C piece of code.
 
+You can find the code documentation at [this](https://marcoieni.github.io/dsdm-project) link.
+
 ## Dependencies
 * Boost Graph Library
 
